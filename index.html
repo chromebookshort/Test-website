@@ -1,16 +1,124 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Website</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; }
-    h1 { font-size: 2em; }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background: #f7f7f7;
+      color: #222;
+    }
+
+    header {
+      background: #ffffff;
+      padding: 30px 20px;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    section {
+      background: white;
+      margin-bottom: 20px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    }
+
+    h1, h2 {
+      margin-top: 0;
+    }
+
+    .update {
+      padding: 12px 0;
+      border-bottom: 1px solid #eee;
+    }
+
+    .update:last-child {
+      border-bottom: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #666;
+      font-size: 14px;
+    }
+
+    a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
-  <h1>Hello, I made this on my iPad</h1>
-  <p>This is my first website.</p>
+
+  <header>
+    <h1>My Website Title</h1>
+    <p>Write one short sentence here to introduce your website.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>About Me</h2>
+      <p>
+        Write your introduction here.
+        You can describe who you are, what you like, or what this website is for.
+      </p>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <p><strong>Project 1:</strong> Write about your first project here.</p>
+      <p><strong>Project 2:</strong> Write about your second project here.</p>
+      <p><strong>Project 3:</strong> Write about your third project here.</p>
+    </section>
+
+    <section>
+      <h2>Updates</h2>
+
+      <div class="update">
+        <strong>Update 1:</strong> Write your newest update here.
+      </div>
+
+      <div class="update">
+        <strong>Update 2:</strong> Write another update here.
+      </div>
+
+      <div class="update">
+        <strong>Update 3:</strong> Add more updates here whenever you want.
+      </div>
+    </section>
+
+    <section>
+      <h2>Links</h2>
+      <p><a href="https://example.com" target="_blank">My Link 1</a></p>
+      <p><a href="https://example.com" target="_blank">My Link 2</a></p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>Email: yourname@example.com</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Last updated: write date here</p>
+  </footer>
+
 </body>
 </html>
